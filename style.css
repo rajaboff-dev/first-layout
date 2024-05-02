@@ -94,22 +94,22 @@ button {
   justify-content: center;
   height: 90vh;
 }
-#home .product-ad {
+#home .product-rek {
   font-family: "Rubik", sans-serif;
   padding: 9em;
 }
-#home .product-ad h1 {
+#home .product-rek h1 {
   font-weight: 600;
   color: var(--main-color);
   font-size: 50px;
 }
-#home .product-ad strong {
+#home .product-rek strong {
   font-weight: 800;
 }
-#home .product-ad p {
+#home .product-rek p {
   color: #4f5665;
 }
-#home .product-ad button {
+#home .product-rek button {
   width: 200px;
   height: 50px;
   background: var(--second-main-color);
@@ -119,7 +119,7 @@ button {
   font-family: "Rubik", sans-serif;
   font-weight: 600;
 }
-#home .product-ad button:hover {
+#home .product-rek button:hover {
   background-color: #f44a4a;
 }
 #home .home-img img {
@@ -562,10 +562,10 @@ button {
   .plan-container {
     width: 97%;
   }
-  .product-ad {
+  .product-rek {
     padding: 0px;
   }
-  .product-ad h1 {
+  .product-rek h1 {
     font-size: 40px;
   }
   .features-img {
