@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- ======= Nav ======== -->
+    <nav class="nav">
+        <div class="nav-logo">
+            <a href="#home">
+                <svg width="40" height="40" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9.34845 3.91062L9.34231 3.90449C9.34181 3.90415 9.34142 3.90369 9.34117 3.90316L5.50824 0.0701294L1.67535 3.90306C1.6749 3.9035 1.67421 3.90439 1.67421 3.90439L1.66789 3.91052C1.08179 4.49991 0.709508 5.26831 0.610239 6.09358C0.51097 6.91884 0.690405 7.75362 1.12002 8.4652C1.54963 9.17679 2.20477 9.72436 2.98129 10.0208C3.7578 10.3173 4.61114 10.3457 5.40563 10.1014C5.47249 10.081 5.54395 10.081 5.61081 10.1014C6.40524 10.3456 7.25853 10.3172 8.035 10.0207C8.81147 9.72416 9.46653 9.17664 9.89612 8.4651C10.3257 7.75357 10.5052 6.91884 10.4059 6.09363C10.3067 5.26841 9.93447 4.50001 9.34845 3.91062ZM3.03827 6.43818C3.01961 6.45684 3.00482 6.47901 2.99473 6.50336C2.98463 6.52771 2.97943 6.55385 2.97944 6.58022C2.98626 7.25672 3.17744 7.91852 3.53241 8.49445C3.54048 8.50752 3.5442 8.52281 3.54306 8.5381C3.54192 8.5534 3.53596 8.56795 3.52605 8.57968C3.51613 8.59141 3.50276 8.59967 3.48786 8.60333C3.47295 8.607 3.45727 8.60586 3.44305 8.60007C3.1762 8.48782 2.93377 8.32465 2.72933 8.1197C2.31036 7.70066 2.07483 7.13245 2.07445 6.53989C2.07407 5.94733 2.30887 5.37882 2.7273 4.95927L5.50824 2.17859L8.28903 4.95927C8.70753 5.37877 8.94242 5.94728 8.94202 6.53989C8.94168 7.13245 8.7061 7.70066 8.2871 8.1197C8.08266 8.32465 7.84025 8.48782 7.57344 8.60007C7.55919 8.60586 7.5435 8.607 7.5286 8.60333C7.5137 8.59967 7.50034 8.59136 7.49039 8.57968C7.48049 8.56795 7.47451 8.5534 7.47337 8.53805C7.47223 8.52276 7.47594 8.50747 7.48401 8.4944C7.83906 7.91852 8.03034 7.25672 8.03727 6.58022C8.03727 6.55385 8.03203 6.52771 8.02188 6.50331C8.01173 6.47892 7.99689 6.45679 7.97818 6.43814L6.66285 5.04297C6.64973 5.03204 6.63325 5.02605 6.61618 5.02605C6.59915 5.02605 6.58262 5.03204 6.56956 5.04297C6.55644 5.05386 6.54763 5.06906 6.54456 5.08583C6.54149 5.10261 6.54441 5.11988 6.55283 5.13473C7.06368 6.05918 6.62439 7.38703 5.89182 8.1197L5.88796 8.12356C5.78685 8.22359 5.65035 8.27966 5.50814 8.27961C5.36591 8.27956 5.22944 8.22339 5.12841 8.12332L5.12485 8.1197C4.39201 7.38703 3.95295 6.05933 4.46389 5.13493C4.47229 5.12008 4.47522 5.10281 4.47216 5.08603C4.4691 5.06925 4.46026 5.05406 4.44717 5.04317C4.43408 5.03223 4.41757 5.02625 4.40052 5.02625C4.38347 5.02625 4.36696 5.03223 4.35387 5.04317L3.03827 6.43818Z"
+                        fill="#F53838" />
+                </svg>
+                <h1>Lasles<strong>VPN</strong></h1>
+            </a>
+        </div>
+
+        <div class="nav-links" id="nav-links">
+            <ul>
+                <li><a href="#about-us">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#plan">Pricing</a></li>
+                <li><a href="#customers">Testimonials</a></li>
+                <li><a href="#contact">Help</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-authentication">
+            <a href=""><button class="sign-in-btn">Sign In</button></a>
+            <a href=""><button class="sign-up-btn">Sign Up</button></a>
+        </div>
+        <div class="hamburger hide" id="hamburger">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+        </div>
+    </nav>
+    <!-- ====== End Nav ======== -->
+
+
+    <!-- ======= Home ====== -->
+
+
+    <section id="home">
+        <div class="product-ad">
+            <h1>Want anything to be easy with <strong>LaslesVPN.</strong></h1>
+            <p>Provide a network for all your needs with ease and fun using <strong>LaslesVPN</strong> discover
+                interesting features from
+                us.</p>
+            <button class="product-start-btn">Get Started</button>
+        </div>
+        <div class="home-img">
+            <img src="./assets/home-img.png" alt="">
+        </div>
+    </section>
+
+
+
+    <!-- ======= End Home ====== -->
+
+    <!-- ================ About Us ============ -->
+    <div class="about-us">
+        <div class="about-us-main">
+            <div class="about-us-sections">
+                <div class="users-about-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-person" viewBox="0 0 16 16">
+                        <path
+                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                    </svg>
+                </div>
+                <div>
+                    <h3>90+</h3>
+                    <p>Users</p>
+                </div>
+            </div>
+            <div class="about-us-sections">
+                <div class="users-about-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                    </svg>
+                </div>
+                <div>
+                    <h3>30+</h3>
+                    <p>Locations</p>
+                </div>
+            </div>
+            <div class="about-us-sections">
+                <div class="users-about-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-hdd-stack-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M2 9a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2zm.5 3a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m2 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1M2 2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm.5 3a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m2 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1" />
+                    </svg>
+                </div>
+                <div>
+                    <h3>50+</h3>
+                    <p>Servers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ====== End About US======== -->
+
+
+
+
+
+    <!-- ======= Features =============== -->
+
+    <section id="features">
+        <div class="features-img">
+            <img src="./assets/features-img.png" alt="">
+        </div>
+        <div class="features-about">
+            <h1>We Provide Many Features You Can Use</h1>
+            <p>You can explore the features that we provide with fun and have their own functions each feature.</p>
+            <ul>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                    </svg>
+                    <p>Powerfull online protection.</p>
+                </li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                    </svg>
+                    <p>Internet without borders.</p>
+                </li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                    </svg>
+                    <p>Supercharged VPN</p>
+                </li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                    </svg>
+                    <p>No specific time limits.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- =============End Features ============ -->
+
+    <div class="top-part">
+        <section id="plan">
+            <h1>Choose Your Plan</h1>
+            <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p>
+            <div class="plan-containers">
+                <div class="plan-container">
+                    <div>
+                        <img src="./assets/free-plan-img.png" alt="">
+                        <h1>Free Plan</h1>
+                        <ul>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                                </svg>
+                                <p>Unlimited Bandwitch</p>
+                            </li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                                </svg>
+                                <p>Encrypted Connection</p>
+                            </li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                                </svg>
+                                <p>No Traffic Logs</p>
+                            </li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                                </svg>
+                                <p>Works on All Devices</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1>Free</h1>
+                        <button>Select</button>
+                    </div>
+                </div>
+                <div class="plan-container">
+                    <div>
+                        <img src="./assets/standart-plan-img.png" alt="">
+                        <h1>Standart Plan</h1>
+                        <ul>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                                </svg>
+                                <p>Unlimited Bandwitch</p>
+                            </li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                                </svg>
+                                <p>Encrypted Connection</p>
+                            </li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                                </svg>
+                                <p>Yes Traffic Logs</p>
+                            </li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                                </svg>
+                                <p>Works on All Devices</p>
+                            </li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                                </svg>
+                                <p>Connect Anyware</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1>$9 / mo</h1>
+                        <button>Select</button>
+                    </div>
+                </div>
+                <div class="plan-container">
+                    <div>
+                        <img src="./assets/premium-plan-img.png" alt="" height="407px">
+                        <h1>Premium Plan</h1>
+                        <ul>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                                </svg>
+                                <p>Unlimited Bandwitch</p>
+                            </li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                                </svg>
+                                <p>Encrypted Connection</p>
+                            </li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                                </svg>
+                                <p>No Traffic Logs</p>
+                            </li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                                </svg>
+                                <p>Works on All Devices</p>
+                            </li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                                </svg>
+                                <p>Connect Anyware</p>
+                            </li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check" viewBox="0 0 16 16">
+                                    <path
+                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
+                                </svg>
+                                <p>Get New Features</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div>
+                        <h1>$12 / mo</h1>
+                        <button>Select</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="affiliates">
+            <div class="affiliates-title">
+                <h1>Huge Global Network of Fast VPN</h1>
+                <p>See LaslesVPN everywhere to make it easier for you when you move locations.</p>
+            </div>
+            <div class="affiliates-map">
+                <img class="map-img" src="./assets/world-affiliates.png" alt="">
+            </div>
+            <div class="partners">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Netflix-Logo.png" alt="">
+                <img src="https://download.logo.wine/logo/Reddit/Reddit-Logo.wine.png" alt="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Amazon_PNG6.png" alt="">
+                <img src="https://wiki.bfee.co/images/d/dd/Discord.png" alt="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/1024px-Spotify_logo_with_text.svg.png"
+                    alt="">
+            </div>
+        </section>
+
+
+        <section id="customers">
+            <div>
+                <h1>Trusted by Thousands of Happy Customer</h1>
+                <p>These are the stories of our customers who have joined us with great pleasure when using this crazy
+                    feature.</p>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card-header">
+                            <div class="person-data">
+                                <img src="data:image/jpeg;base64,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"
+                                    alt="">
+                                <div>
+                                    <h3>Frank Romero</h3>
+                                    <p>Faijozor, American Samoa</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>4,5⭐</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro adipisci ex, dignissimos
+                                repellat mollitia architecto itaque consectetur? Asperiores, eaque sit temporibus
+                                blanditiis."</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-header">
+                            <div class="person-data">
+                                <img src="data:image/jpeg;base64,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"
+                                    alt="">
+                                <div>
+                                    <h3>Frank Romero</h3>
+                                    <p>Faijozor, American Samoa</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>4,5⭐</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro adipisci ex, dignissimos
+                                repellat mollitia architecto itaque consectetur? Asperiores, eaque sit temporibus
+                                blanditiis."</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-header">
+                            <div class="person-data">
+                                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALYAwgMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAIDBAYBBwj/xAA7EAABAwIEAwYDBgUEAwAAAAABAAIDBBEFEiExQVFhBhMiMnGBFJGhB0JSsdHwFSNiweEkM1PxNFSy/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAECAwQF/8QAIREBAQEBAAMBAAEFAAAAAAAAAAECEQMhMRJBBBMiMlH/2gAMAwEAAhEDEQA/ALIangLgUgWZEAnNb42pBPb52oDS4Z5Go7AgOGuGRqNwyK4UX2EBeZ/aj2pa4SYHh02th8XM12jf6OtwNVsO0uM/wbBKusbYyxx/ywdi8mzfqfoV84Vlc+olfZ5N3EufbVxPFLVXFsho3nzn1sFFLKHuBktpwcP3dVAyV/mkcCn93ONNHt5FZ1Ui8GmeB8lG/NLGLvgN9RzbzVVkfxL7wOyP+83Nax6KNjZ4pGyR52vYbtcNwr3hqnNkyd1UbmzbByOxXKvYJiLo3GGvizM2z2tb1C1tHHBADDHbIRowjT1H748VjI5DI29QwNf/AMm490cwmqk7tkLmXfewzcf3zT7C5WppZRT07mXzxnjbh15/vndcmMVRCHQHvI3EC19WHpzHr/3VoKOouZWxm3GNw2U02HVUN5ImeB3ma8eYJ99J/IfNEY35Sb9VA5S1NQ1suR99txqoXOB8p9ibH5bqBxG5RuUrgonJDphCYU8ptkBPRDxrRUjkBpG2N0apjbZKgTzBcUGdJI1RqkCiapAVsySBOG4PJMBTggDmHy2AAOyMxShZiklycUTiqhzVSkwv2vY06aqpsJje5sbGGWW33nHQD2APzXnkMRmmDG3AO1tFtftJh77HYZGjenbYe53+SG9nMOEtUHuHhG1uSz3rjbE6uYZ2eYImvnGZ7tbckSOEwAWEbbeiMCMcl0gclxa3XfnEAv4TD+AJ4weJz9WiyMZRyT2NHJT+qv8AtxTpsDpnG5jRqgwSlD790L+i5Tm2yK0biHtsd1pnXanWYNYfQU7GNzMF+qqdoKWT4UmHZuwARGnfdoJ4KwcrgQ4XBXd648++q8mq46aSV7cnibqA11iDddjoyI3Nka57B4r3uNdj++SPdoMGiZUPczMBfMbfn6hCKmJ9LEHXLni+Z33SNhp1UcFBZBZ1vZROCndvdROUpROXBq6yc5NHnQa9TNRSEWQ+l1RKIIHUt11csuo4XVYJ4TAnBaoSgpwUYUjUBYjViMkKqwqdsmlgLlBM32sp3z1rLC+Zot1sV3CGiKUMa2wtY2V7Gp7VcVw3KG8ed0qSABzprWzLDyX06fFFp1hsmO04odimKtpDl0JGrun+UBm7VSjyUxdw0XN+LXZ/cka0eqkZfmsxQdpI6jwyxuif6LQQyh8bXNO6i541mpV+F9t0VoXBzxrayBCUWudE5uKwUxvLMxvQuCrHelrnG4py5oturQcslQdoqWQtDJ2OvyK0tLUx1AJY4G+y7s67HBvPKq4i1rn+NuYbFZjtJGIaZxaLBxGvvx9vqtnNCHtJ5rKdqoi+jc4G3duB9U/4ZX6xrlC5TOULlBInJo86c5NHnQYlSIpEhVIicRKCTpLl11MlUJwTAnArRKQKRqjBTwUglapmSCFj5LZiG+FvW6haU6TxxSN5gFTvv5vGnhkvkzKH4tG980criXN5X2V7aFtuSrV1REzwFwzOAAHVWnC0YHJq4/1bHoXEzr0B1scFO3vqgAknY63WdxLGZaaUxtpchIFgW667cR+S1tbSR1JaZ/um46FCsRwuGpeHzuLnWte5GivFl+o1m/wF09bLYfF0zHgjMHZeC1FAWSU4MOw4IFHQuM4bGHWGgJJC02HQ92LAWCjdjTE4ZWN7ukc+R2UAfVY+sZQOeS9lRMQLlwdoAvRMUw01GENLRu+zvksUyge2cizxe7TrcW5J4vPpan6UsIlwt9QGxvqorb3YTb5L0/AmCOBslLUCWLQg3usn2dwGKlqDMw2c4WzZr2B3t/lbaHDW0kd6YCziLg8Vp3/jK559HWG7NUHqaWOsnENU0/CkXflJvpsi8N8niVSGS2JRMa5lruDwdyeC11eRnnPawPaKgp6KqY+jc59LM3NGHbi249kFetL2rtaAHT+bMQOl2/3us09Tm2ztZ+XMxqyInJg86c4poPjVIEaUolEULpUTiKCTpLiSArBycCoA5PDlohOCnhyrhycHIC01yla5VWuUjXovs5f5CamgnpsSdMbyQv8AKTwJR+4dG08Co5SJaF0f32nM1KnJNOy4tbcLj1n8+npZ8n75Ucrc2yrPizbhXTpsoJXW2WXxvyIo4wNrIjTMy8boNLP3Zs06nT0Ren8DRY3I36JfRzjUUVO2TDg0i4LtQqU+F00j9AxT4RWD4ZzX2DDpc6aoVWVHwuIuhbJmbo5p6Hgt9WTErHOLd2LrMK7k3ZYhEqfM22fW3NUsPr8zbHUouA1wuFp45mz0y3+peaSA+BZPF53U2OtdEMxcWkW3utUPIhlfU09FS1lZOxpexwEdxqX20H76o8mLqcHh8k8WrbOsZ2sqmz4xMyM3ji8DfXd31J+SBPKkle573Pcbucbk8yq7yVUnHJrXdW01xCjBGdccSmX8aY6KUrkUhKD0hRaBBLK4kkgB4BTwFYFOeSeKc8lohWAKe1pVkUx5KQUx5ICs2/JSNaVZbTnkpG0x5ICuy4IIGoVhSiA8lySIsN+Cy8mezrbwaveKr1VnKtSiypVBXLXozSmxgLnOeLqWnkbDMZWjM8ixdxIVKbE6OCRzJpsmtrBpP1XYsQoJTkZO0u5Bwv8AIpyFNWtNC+GtjYJY23iNxfXxc1FVQ2dmDiTzQumxGhpmZ5aljGX1cXgAfNWnY1h5iL21LSOHhJJ9LBXyWcL9azer9DOWu6rT0cwfHa6xlFOyQtkY4Fp+q0+GnSynx+rweSzWe0bafAsT2zqu9qWUcX+3CS5x5vP6f3WzjcMhzbAXJ9lhKqIzzyzW1ke53zXVPbg3eM+5h5KB7DyR80SidQp8Z9Z9zDyUeQ59kfdQdFEaDW6XB1VpYyEUhCbFSlvBWGR5d0Gcku2SSAiKfonin6K2AE4ALRCq2DopBB0VpoCeAEBWbB0UjYOisNAUgAQFYQdE2emzR2tqrwATst0WdOXjKzsLTY6IZVAhmm6OY1kFQQzh+aDzjPxXFue3oY16UYKSItIfqCb68099PTluV8dx/UFO1uXdNeCd9Uv1Y1y7RR0sT2/6eK3MMsfmtO+KnqqQNEbNNvCs7R05c4DNay0tFG4DIQD1V5vS3WcipRS1bmDRrjfbitRh3lJ57KGqomvINtQp6NuR4YDeyJn86Z3Us4JVbiKNzBu4ZUE+GF75Uaq2uDGOOxBAVOwXVlw+S+1H4cfhTDTj8KIWC5YKkBxph+FROpgPuoqWjkonNHJAC3QdFDJFbgij2jkqcwCVCjZdTrJKOKFw8J4eFREhTxKrT1fEgTw8IeJU4SHmgdEGvCeHhUGylSNkKB1fDwuulaxmd7g0bA9dvzVMSHQAjrdYys7R/wAS7aYdhNM8OpYJHOkIOkjw12noPzTEEquUmtqI3Aggh2oOxHW3IqhITHJlJuOam7Sf6OqhrW2LC3upbW2vobfr6qDOyVjbu0PFcWvVehn/ACzEgeHbpEpgju24Ka8vadrj6qavOuRZgeQbgo5h1SbWOizcUj7W7s3RKjbNJwyjmnPVGtTg5UVTW+UqXDGEuMj+OwQe7c2/hHHmjmHl05YANBq4/hHX1WmfemN9Rbx2obSYZSyyDwunyE/huDY/MBUTJ6AcxxCb9pczKfsqGE2d8RE0D3ubewWawvGA2Bkc50AsH8vVdv49enDde+tN3oXDKFQZUNe3Mx7S3mDdcdK4bqD6vGUJrpQh7qgqN1Ul01x8gVSaRMMt9yoJH33RShZklDmXFKhjujyXe6KuZEsipHFPuynCMq05rWAuks1o4k2H1WZxvtpheGB0dO4Vc44MPhHqUw0DGEDX3uLWQnF+1WEYQHCaoEso2ii8R+a8zxvthimKOcx05ih4RxaN/wArPF5JJJNzunw+NX2g7aYhizzHETTUv/Gw2LvVyGdkqgQdqsMeXZWmbISNPMCPzKDX+iUMhiqIZWmzmSNcDysU/wCFR7zVQsraY00rWOc86tzG3IuceW4/emPqIp8ClbFODLSSu/kzWtfof38+GxjkdU00TwPFJq1gdbP0PQD6g9E2SKKsp3R1TY5A4ZS5w8DG8m3+8sN5/Toxu5Aqd4eLtILU2WbKLBJ2DT0ze8w55fA//bikPjf1b+h15qhLVgPMcjS2Rujmndp6rnubG8sq9TTAuu4W90aNWxlHlFgVlG1MYbYvNuJRekw2pqw3vP5TbB1n3BePyH59BuSS0r+Z9WqMyVlV3cFnOv5TwHz1PRbPDmto2RU8bs0shNpD+LiH+n+PURRQRU8BjhikjjYL5D/uwO4+pPv7hGMMic175qhzS57QLgaFu23Ajiuzx4/Ll8nkumO+2SvtFhOHM0JldKR0aLD/AOlmKOUPpyDuW6+qi+1HETV9tDGPLSxhmh2JJJ+VwPZUaapsLg6cl1YvHNpfjq5WtdHHI5hHEJ8faesppMsvdyDgSNwhsj/ETzVGulGS7xZp4/hRZKJWzpe01JOP5rXRH5hEGVEM4zQyNcOQOq8xjnLHafNW4a4sN2ucDzBWdxFR6ONtb+uyY5Y6l7RVUWj5GyM/C8XRim7QQym00ZZ/U3xBZ3Fh9FUlW/iFH/7DElPKfYNYt2rwjDMzXVAmmH3IfFb1Ow+ayGJ/aPO7Shgihb+J3jd+i89fMTu6/qoS881pwcGsU7R4hXkmpqZZL7gu0+WyDukcTcuN1EXJpKOjh4JtuU7RRtcnEpGcSmPS3ScgPcMEuMNjMbblsTQQDoGkaa83X9vzKPDZXPlkA7xlw88QAbAN5O/v7WzXYmqdPgdOxjmiSNuQm12xA/edzvw5HotFnMWV2UnLfK3ibA6n3Oh6jmsl9VcWrYMOpX1da8xxxtvbMbuvsCd854NHvzXmuMdoKjFaoy5IoWg+GzfHl/qN9Sr/ANptdK7F6ShH/jxN7w8pJDu798ysyw2ypcdPhzKu0uJVdBVR1bMshZrlkZdjgvXOy2OUnaChD6VjI5obCSndsHczxaeR2/t45ID3bzbYaFGOxbJsJxmmr3PcA9wjkit4XMI2PPh8k8TlH9RmcezxBkgY6TMxzSLZh44XHY34g8PrxtHWYs2Clc5kbnue2/h111a79Sp3x2dnfIA0EguP3eLSfr7+6GYu6OGnksDG1jS94Bs6Nu928wdTb/pbVxR4pjEj5e0lbJI8TSd543tOjjbX2Xe/MZuNFQdN8XX1E9tJJXPAGlgSrM/lurz8TpfjqWyx24qGqcJWdELE5jdYaKYzmVrWt1B1txTtKRHD4Wyh/lvaM9b/AJLrXkcU0m5zO04FvJMvYXGyRphMWm4dZWYalxHmKF94FJFJbYolHBn4s8ykhve9VxX0uBl7rl01JYtCXVy66kCAASSSQHQulcCRQHqnY90sNHQytY58UlMxr2yOaIz68d+i2UcQfTyS5+8ZY5nm4L2jdoHADUA/s4jsh3cvZulzCmNo8h7y7To4jdaiXESyhmGcmYnIfHcOP3S0D6ndY6+tGP7dwMqcWijbcujgcZCwA5SXXAPUcVkKuGWCd0bSPC62o4L0J2Gs+HdnmpnVAzl7i4se46He/rwWHxCRkmJ1L2m7DI4tu6+gOibfwT3VilpXzwmN0zDG8EXybWHMHojjsNNOWzsqO9kY8OaRG86hvug2G1Pc1MfAOcL67fX9Pbdem1NK2FthA5zhe9ql1h4bbHqmr+o56HaGqixLC6arj0bJGGOBbfh5HDpv8+t8p23ldT4PPA1z5G5jqR4mDiQTu22nup8Nqjh9cYg2P4SQlsjXSl4AAGtrc9Fm+3ddLLRVpjjtELRMzS3LW8gOOp4ot7XJzjz6h3ursx0sqVErUpXRPjK/VGXe6a11rXO2yfIAmSN0zA3HNIyMztpPEPxNUgc11McrruG45BQArsTTmeeBagIwVKwqsp4jfdKGm1SXbhJUniiuJJLNZFOCSSA4kkkgOrpSSQHo/YGqAwNkfeztLXPsGtaW+e/FbBsbnh5bUSA+PXI2+vsUkljfrSfFbFZqigpaieOpc+wc/LIwH7nSy8oaTn3KSSHV4PlddL3coJLhk3tray9dgpHPyFsNIwnL48lzrqdPkkkqPz/6xYdR3pwZTDYs1DYbeY+qxX2hSRxYP3ULpAJZxplaBYeg6JJJT6478YajU0iSS6Z8Y36rPTHNLTdpt+SSSRo/0UsGuYdEkkQKcmjrBTU+qSSUNNZdSSVE/9k="
+                                    alt="">
+                                <div>
+                                    <h3>Frank Romero</h3>
+                                    <p>Faijozor, American Samoa</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>4,5⭐</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro adipisci ex, dignissimos
+                                repellat mollitia architecto itaque consectetur? Asperiores, eaque sit temporibus
+                                blanditiis."</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-header">
+                            <div class="person-data">
+                                <img src="data:image/jpeg;base64,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"
+                                    alt="">
+                                <div>
+                                    <h3>Frank Romero</h3>
+                                    <p>Faijozor, American Samoa</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p>4,5⭐</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro adipisci ex, dignissimos
+                                repellat mollitia architecto itaque consectetur? Asperiores, eaque sit temporibus
+                                blanditiis."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-settings">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="subscribe-section">
+        <div>
+            <h1>Subscribe Now for Get Special Features!</h1>
+            <p>Let's subscribe with us and find the fun.</p>
+        </div>
+        <div>
+            <button>Subscribe Now</button>
+        </div>
+    </div>
+    <section id="contact">
+        <div class="contact-data">
+            <h2><svg width="40" height="40" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9.34845 3.91062L9.34231 3.90449C9.34181 3.90415 9.34142 3.90369 9.34117 3.90316L5.50824 0.0701294L1.67535 3.90306C1.6749 3.9035 1.67421 3.90439 1.67421 3.90439L1.66789 3.91052C1.08179 4.49991 0.709508 5.26831 0.610239 6.09358C0.51097 6.91884 0.690405 7.75362 1.12002 8.4652C1.54963 9.17679 2.20477 9.72436 2.98129 10.0208C3.7578 10.3173 4.61114 10.3457 5.40563 10.1014C5.47249 10.081 5.54395 10.081 5.61081 10.1014C6.40524 10.3456 7.25853 10.3172 8.035 10.0207C8.81147 9.72416 9.46653 9.17664 9.89612 8.4651C10.3257 7.75357 10.5052 6.91884 10.4059 6.09363C10.3067 5.26841 9.93447 4.50001 9.34845 3.91062ZM3.03827 6.43818C3.01961 6.45684 3.00482 6.47901 2.99473 6.50336C2.98463 6.52771 2.97943 6.55385 2.97944 6.58022C2.98626 7.25672 3.17744 7.91852 3.53241 8.49445C3.54048 8.50752 3.5442 8.52281 3.54306 8.5381C3.54192 8.5534 3.53596 8.56795 3.52605 8.57968C3.51613 8.59141 3.50276 8.59967 3.48786 8.60333C3.47295 8.607 3.45727 8.60586 3.44305 8.60007C3.1762 8.48782 2.93377 8.32465 2.72933 8.1197C2.31036 7.70066 2.07483 7.13245 2.07445 6.53989C2.07407 5.94733 2.30887 5.37882 2.7273 4.95927L5.50824 2.17859L8.28903 4.95927C8.70753 5.37877 8.94242 5.94728 8.94202 6.53989C8.94168 7.13245 8.7061 7.70066 8.2871 8.1197C8.08266 8.32465 7.84025 8.48782 7.57344 8.60007C7.55919 8.60586 7.5435 8.607 7.5286 8.60333C7.5137 8.59967 7.50034 8.59136 7.49039 8.57968C7.48049 8.56795 7.47451 8.5534 7.47337 8.53805C7.47223 8.52276 7.47594 8.50747 7.48401 8.4944C7.83906 7.91852 8.03034 7.25672 8.03727 6.58022C8.03727 6.55385 8.03203 6.52771 8.02188 6.50331C8.01173 6.47892 7.99689 6.45679 7.97818 6.43814L6.66285 5.04297C6.64973 5.03204 6.63325 5.02605 6.61618 5.02605C6.59915 5.02605 6.58262 5.03204 6.56956 5.04297C6.55644 5.05386 6.54763 5.06906 6.54456 5.08583C6.54149 5.10261 6.54441 5.11988 6.55283 5.13473C7.06368 6.05918 6.62439 7.38703 5.89182 8.1197L5.88796 8.12356C5.78685 8.22359 5.65035 8.27966 5.50814 8.27961C5.36591 8.27956 5.22944 8.22339 5.12841 8.12332L5.12485 8.1197C4.39201 7.38703 3.95295 6.05933 4.46389 5.13493C4.47229 5.12008 4.47522 5.10281 4.47216 5.08603C4.4691 5.06925 4.46026 5.05406 4.44717 5.04317C4.43408 5.03223 4.41757 5.02625 4.40052 5.02625C4.38347 5.02625 4.36696 5.03223 4.35387 5.04317L3.03827 6.43818Z"
+                        fill="#F53838" />
+                </svg>Lasles<b>VPN</b></h2>
+
+            <p>LaslesVPN is a private virtual network that has unique features and has high security.</p>
+            <div class="sm-links">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                    </svg>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path
+                            d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                    </svg>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                    </svg>
+                </div>
+            </div>
+            <p>©2024 Lasles VPN</p>
+        </div>
+        <div class="contact-links">
+            <div>
+                <p>Product</p>
+                <ul>
+                    <li>Download</li>
+                    <li>Pricing</li>
+                    <li>Locations</li>
+                    <li>Server</li>
+                    <li>Countries</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div>
+                <p>Engage</p>
+                <ul>
+                    <li>LaslesVPN?</li>
+                    <li>FAQ</li>
+                    <li>Tutorials</li>
+                    <li>About US</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                </ul>
+            </div>
+            <div>
+                <p>Earn Money</p>
+                <ul>
+                    <li>Affiliate</li>
+                    <li>Become Partner</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
